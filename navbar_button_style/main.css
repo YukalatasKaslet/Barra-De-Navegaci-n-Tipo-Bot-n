@@ -12,3 +12,69 @@ header {
   margin: 0 auto;
 }
 
+/* Código Lau */
+
+.contenedor_menu{
+  float: left;
+  position: relative;
+  left: 50%  
+}
+
+ul.menu_centro {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 10px 20px 5px;
+  position: relative;
+  left: -50%;
+ }
+
+ul.menu_centro li{
+  float: left;
+  /* width: 20%; */
+  margin-right: 3px;
+  padding: 20px 25px;
+  text-align: center;
+  list-style-type: none;
+  background-color: #FF0960;
+  background: linear-gradient(rgba(204,204,204,0.4), #CCCCCC); /* Standard syntax */
+}
+
+ul.menu_centro li:first-child { 
+    
+    border-bottom-left-radius: 15px;
+    border-top-left-radius:    15px;
+
+}
+
+ul.menu_centro li:last-child { 
+    
+    border-bottom-right-radius: 15px;
+    border-top-right-radius:    15px;
+}
+/*
+a.nounderline:link  
+{  
+ text-decoration:none;  
+} */  
+
+nav ul li a:link {
+  font-color: black;
+  text-decoration: none; /* Quita el subrayado al link */
+}
+
+a:link, a:visited { 
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+    color: #999999;
+}
+
+
+.clear {
+  clear: left;
+  height: 1px;
+  margin-top: -1px;
+ }
